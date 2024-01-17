@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(30deg, rgb(207, 206, 219),rgb(177, 147, 194));
+    color: rgb(37, 37, 37);
+}
+#page-logo a{
+    color: rgb(19, 49, 85);
+
+}
+
+header{
+    position: static;
+}
+header a {
+    color:rgb(19, 49, 85);
+
+}
+header nav a:hover{
+    background-color: rgb(119, 131, 185);
+    color: rgb(42, 17, 56);
+
+}
+main ul {
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 600px 600px;    /*e kthen ne grid per structure*/
+    gap: 20px 100px;  /*per distancen*/
+
+}
+
+/*li:first-of-type{
+    background-color: rgb(177, 147, 194);
+}*/
+li:nth-of-type(3){
+    background-color: rgb(177, 147, 194);
+}
+li:nth-of-type(4){
+    background-color: rgb(177, 147, 194);
+}
+main li{
+    display: flex;
+    background-color: rgb(166, 169, 182);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 500px;
+}
+main li img{
+    width: 270px;
+    height: 290px;
+    object-fit: cover;
+}
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-content h2{
+    margin: 0;
+}
+.actions{
+    text-align: right;
+}
+.actions a{
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(31, 4, 75);
+    border-radius: 5px;
+}
+.actions a:hover{
+    background-color: rgb(235, 253, 255);
+}
